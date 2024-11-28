@@ -40,6 +40,24 @@ func ProcessSumDigit() {
 
 }
 
+func ProcessSumDigitWithSelect() {
+	var wg sync.WaitGroup
+	jobchn := getJobChannel(&wg)
+	reschn := calculateSumDigit(jobchn, 10, &wg)
+	for {
+		select {
+		case res, open := <-reschn:
+			if !open {
+
+			}
+			fmt.Printf("result is=%v\n", res)
+		}
+	}
+
+	fmt.Println("----END------")
+
+}
+
 func getJobChannel(awg *sync.WaitGroup) chan Job {
 	jobchan := make(chan Job, 10)
 	go func() {

@@ -1,0 +1,20 @@
+Anagram is a word, phrase, or sentence formed from another by rearranging its letters. Given 2 strings s and t. Find out the number of anagrams of t in s.
+example: s = "xyzabyzxsayxzyerfxyasz", t = "xyz" res = 4 (Xyz {0,2}, yzx {5,7}, yxz {10, 12}, xzy {11,13})
+
+"xyzabyzxsayxzyerfxyasz"
+l =0
+r = 2
+
+l:=1 r=2-Len(t)
+xyz x,y,z
+yza != xyz
+
+
+
+------
+ Create a retry librar
+
+
+ r1 : A developer can use the library  --> If the request is passed then the response should be send to the user
+ r2 : If the request is failing initialilly then library should retyry hitting the given url the specified number of times by the developer
+ 
