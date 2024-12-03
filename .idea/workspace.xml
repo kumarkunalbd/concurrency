@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d7f3930-18a8-4009-bbb2-721e52b27bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/validation/digital_signature.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workerpool/jobcreator.go" beforeDir="false" afterPath="$PROJECT_DIR$/workerpool/jobcreator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infoblox/retyrservice/retry.go" beforeDir="false" afterPath="$PROJECT_DIR$/infoblox/retyrservice/retry.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,97 +33,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build ConcurrencyP/cmd/hashser.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build ConcurrencyP/cmd/networkservice.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build ConcurrencyP/cmd/pipelineexec.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build ConcurrencyP/cmd/workerpdemo.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build main.go.executor&quot;: &quot;Debug&quot;,
-    &quot;Go Test.TestAnagram in ConcurrencyP/infoblox.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestJobCreator in ConcurrencyP/workerpool.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestMultiURLTime in ConcurrencyP/network.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build ConcurrencyP/cmd/hashser.executor": "Run",
+    "Go Build.go build ConcurrencyP/cmd/networkservice.executor": "Run",
+    "Go Build.go build ConcurrencyP/cmd/pipelineexec.executor": "Run",
+    "Go Build.go build ConcurrencyP/cmd/workerpdemo.executor": "Run",
+    "Go Build.go build main.go.executor": "Debug",
+    "Go Test.TestAnagram in ConcurrencyP/infoblox.executor": "Run",
+    "Go Test.TestContentPopularityManager in ConcurrencyP/mostpopular.executor": "Debug",
+    "Go Test.TestCountDistChars in ConcurrencyP/distchar.executor": "Run",
+    "Go Test.TestCountDistCharsCAseInsensitive in ConcurrencyP/distchar.executor": "Run",
+    "Go Test.TestFileManager in ConcurrencyP/atlassian.executor": "Debug",
+    "Go Test.TestFilter in ConcurrencyP/distchar.executor": "Run",
+    "Go Test.TestJobCreator in ConcurrencyP/workerpool.executor": "Run",
+    "Go Test.TestMaxHeap_Remove in ConcurrencyP/datastructures.executor": "Run",
+    "Go Test.TestMinHeap_Remove in ConcurrencyP/datastructures.executor": "Run",
+    "Go Test.TestMinHeap_RemoveIndexes in ConcurrencyP/datastructures.executor": "Run",
+    "Go Test.TestMultiURLTime in ConcurrencyP/network.executor": "Run",
+    "Go Test.TestQueue in ConcurrencyP/datastructures.executor": "Run",
+    "Go Test.TestStack in ConcurrencyP/datastructures.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmd/hashser" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestAnagram in ConcurrencyP/infoblox">
-    <configuration name="go build ConcurrencyP/cmd/hashser" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestFileManager in ConcurrencyP/atlassian">
+    <configuration name="TestFileManager in ConcurrencyP/atlassian" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ConcurrencyP" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="ConcurrencyP/cmd/hashser" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/cmd/hashser/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ConcurrencyP/cmd/networkservice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="ConcurrencyP" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="ConcurrencyP/cmd/networkservice" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/cmd/networkservice/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ConcurrencyP/cmd/workerpdemo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="ConcurrencyP" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="ConcurrencyP/cmd/workerpdemo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/cmd/workerpdemo/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAnagram in ConcurrencyP/infoblox" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ConcurrencyP" />
-      <working_directory value="$PROJECT_DIR$/infoblox" />
+      <working_directory value="$PROJECT_DIR$/atlassian" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="ConcurrencyP/infoblox" />
+      <package value="ConcurrencyP/atlassian" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestAnagram\E$" />
+      <pattern value="^\QTestFileManager\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestJobCreator in ConcurrencyP/workerpool" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMaxHeap_Remove in ConcurrencyP/datastructures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ConcurrencyP" />
-      <working_directory value="$PROJECT_DIR$/workerpool" />
+      <working_directory value="$PROJECT_DIR$/datastructures" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="ConcurrencyP/workerpool" />
+      <package value="ConcurrencyP/datastructures" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestJobCreator\E$" />
+      <pattern value="^\QTestMaxHeap_Remove\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMinHeap_Remove in ConcurrencyP/datastructures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ConcurrencyP" />
+      <working_directory value="$PROJECT_DIR$/datastructures" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ConcurrencyP/datastructures" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMinHeap_Remove\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMinHeap_RemoveIndexes in ConcurrencyP/datastructures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ConcurrencyP" />
+      <working_directory value="$PROJECT_DIR$/datastructures" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ConcurrencyP/datastructures" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMinHeap_RemoveIndexes\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStack in ConcurrencyP/datastructures" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ConcurrencyP" />
+      <working_directory value="$PROJECT_DIR$/datastructures" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="ConcurrencyP/datastructures" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestStack\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestAnagram in ConcurrencyP/infoblox" />
-        <item itemvalue="Go Build.go build ConcurrencyP/cmd/workerpdemo" />
-        <item itemvalue="Go Test.TestJobCreator in ConcurrencyP/workerpool" />
-        <item itemvalue="Go Build.go build ConcurrencyP/cmd/networkservice" />
-        <item itemvalue="Go Build.go build ConcurrencyP/cmd/hashser" />
+        <item itemvalue="Go Test.TestFileManager in ConcurrencyP/atlassian" />
+        <item itemvalue="Go Test.TestMinHeap_RemoveIndexes in ConcurrencyP/datastructures" />
+        <item itemvalue="Go Test.TestMinHeap_Remove in ConcurrencyP/datastructures" />
+        <item itemvalue="Go Test.TestMaxHeap_Remove in ConcurrencyP/datastructures" />
+        <item itemvalue="Go Test.TestStack in ConcurrencyP/datastructures" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +171,13 @@
       <workItem from="1730654282798" duration="599000" />
       <workItem from="1732617483925" duration="193000" />
       <workItem from="1732618150949" duration="5541000" />
-      <workItem from="1732788486038" duration="604000" />
+      <workItem from="1732788486038" duration="6098000" />
+      <workItem from="1732878271174" duration="942000" />
+      <workItem from="1733111046706" duration="833000" />
+      <workItem from="1733123683857" duration="1529000" />
+      <workItem from="1733137019146" duration="606000" />
+      <workItem from="1733211279578" duration="7111000" />
+      <workItem from="1733223496423" duration="5154000" />
     </task>
     <servers />
   </component>
@@ -178,8 +202,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/infoblox/retyrservice/retry.go</url>
-          <line>12</line>
+          <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/mostpopular/assesment_test.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/datastructures/stack_test.go</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/filemanager_atlassian/filemanagement_test.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

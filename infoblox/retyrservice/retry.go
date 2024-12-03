@@ -1,15 +1,11 @@
 package retyrservice
 
-import (
-	"fmt"
-	"time"
-)
-
 type Retry interface {
 	Retyr()
 	Wait()
 }
 
+/*
 type RetyrService struct {
 	Retry retyr
 }
@@ -58,4 +54,4 @@ type URLretry struct {
 
 func (rt *URLretry) Retyr() {
 	fmt.Printf("Own fucntionaluty")
-}
+}*/

@@ -1,0 +1,23 @@
+You are writing a string utils library for customers.
+
+Find the number of distinct characters in the input string:
+
+Examples:
+"aBaBbeCNnO" -> 8
+"aaaAAA" -> 2
+
+
+Awesome! You shipped the library and customers love it. However, your customers have an edge case where sometimes they care about case sensitivity and sometimes they don't. Can we update the code to support a case insensitive mode?
+
+Examples:
+"aBaBbeCNnO" -> 6
+"aaaAAA" -> 1
+
+
+Great! Now customers are starting to see special characters in their inputs. They want the ability to filter these out. Can you update the library to support this feature?
+
+Examples:
+"aBaB@!~beCNnO", -> 6
+"aa!!!#aAAA" -> 1
+
+

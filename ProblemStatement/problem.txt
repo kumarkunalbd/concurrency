@@ -1,0 +1,49 @@
+Given a list of words that are mostly alphabetical, except they start somewhere in the middle of the alphabet,
+reach the end, and then start from the beginning of the alphabet. In other words, this is an alphabetically ordered list that has been "rotated". Write a function for finding the index of the "rotation point"
+
+For example:
+  words = [
+    'problem',   l
+    'retro',
+    'supply',  m
+    'undue',
+    'xylo',
+    'acid',  <-- rotates here  l=m+1
+    'baba', r
+    'banana',  m
+    'english',
+    'kafka',
+    'other',  m
+]
+
+TC : N*M
+TC : LOg(n)*len(each string)
+  m =(l+r)/2
+
+ RotatioNPoint :=
+  if alphabet(m)<alpahbet(l){
+            RotatioNPoint = m
+            r := m-1
+  }else alphabet(m)<alpahbet(l){
+        l = m+1
+  }
+
+  if
+
+
+
+
+
+ Rotation Point := m
+
+     'problem',
+        'retro',
+        'supply',
+        'undue',
+        'xylo',
+          'acid',
+            'baba',
+            'banana',
+            'english',
+            'kafka',
+            'other',
